@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A526DD672A02AFE300B682BF /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A526DD662A02AFE300B682BF /* TextBootcamp.swift */; };
 		A56528692A02A72800AE03EE /* SwiftThinkingBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56528682A02A72800AE03EE /* SwiftThinkingBootcampApp.swift */; };
 		A565286B2A02A72800AE03EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A565286A2A02A72800AE03EE /* ContentView.swift */; };
 		A565286D2A02A72900AE03EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A565286C2A02A72900AE03EE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A526DD662A02AFE300B682BF /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
 		A56528652A02A72800AE03EE /* SwiftThinkingBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftThinkingBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56528682A02A72800AE03EE /* SwiftThinkingBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftThinkingBootcampApp.swift; sourceTree = "<group>"; };
 		A565286A2A02A72800AE03EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				A56528682A02A72800AE03EE /* SwiftThinkingBootcampApp.swift */,
 				A565286A2A02A72800AE03EE /* ContentView.swift */,
+				A526DD662A02AFE300B682BF /* TextBootcamp.swift */,
 				A565286C2A02A72900AE03EE /* Assets.xcassets */,
 				A565286E2A02A72900AE03EE /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A565286B2A02A72800AE03EE /* ContentView.swift in Sources */,
+				A526DD672A02AFE300B682BF /* TextBootcamp.swift in Sources */,
 				A56528692A02A72800AE03EE /* SwiftThinkingBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftThinkingBootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +302,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftThinkingBootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Bootcamp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
